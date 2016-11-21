@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RBProject version="2016r3" FormatVersion="2" MinIDEVersion="20070100">
+<block type="Module" ID="1670680575">
+ <ObjName>OSFolder</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <IsClass>0</IsClass>
+ <ItemFlags>1</ItemFlags>
+ <IsInterface>0</IsInterface>
+ <Compatibility></Compatibility>
+ <Method>
+  <ItemName>ApplicationData</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function ApplicationData() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.ApplicationData.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>Applications</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function Applications() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.Applications.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>Bin</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function Bin() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.Bin.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>Cookies</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function Cookies() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.Cookies.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>CurrentWorkingDirectory</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function CurrentWorkingDirectory() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.CurrentWorkingDirectory.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>Desktop</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function Desktop() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.Desktop.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>Etc</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function Etc() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.Etc.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>Extensions</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function Extensions() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.Extensions.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>Favorites</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function Favorites() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.Favorites.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>Fonts</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function Fonts() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.Fonts.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>History</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function History() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.History.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>Home</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function Home() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.Home.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>InternetCache</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function InternetCache() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.InternetCache.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>Library</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function Library() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.Library.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>Mount</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function Mount() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.Mount.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>Movies</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function Movies() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.Movies.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>Music</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function Music() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.Music.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>NetworkPlaces</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function NetworkPlaces() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.NetworkPlaces.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>Pictures</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function Pictures() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.Pictures.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>Preferences</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function Preferences() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.Preferences.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>Printers</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function Printers() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.Printers.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>RecentItems</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function RecentItems() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.RecentItems.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>SBin</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function SBin() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.SBin.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>SendTo</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function SendTo() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.SendTo.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>SharedApplicationData</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function SharedApplicationData() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.SharedApplicationData.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>SharedApplications</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function SharedApplications() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.SharedApplications.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>SharedDesktop</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function SharedDesktop() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.SharedDesktop.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>SharedDocuments</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function SharedDocuments() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.SharedDocuments.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>SharedFavorites</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function SharedFavorites() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.SharedFavorites.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>SharedPreferences</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function SharedPreferences() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.SharedPreferences.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>SharedStartupItems</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function SharedStartupItems() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.SharedStartupItems.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>SharedTemplates</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function SharedTemplates() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.SharedTemplates.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>StartupItems</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function StartupItems() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.StartupItems.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>System</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function System() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.System.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>Templates</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function Templates() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.Templates.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>Temporary</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function Temporary() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.Temporary.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>Trash</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function Trash() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.Trash.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>UserBin</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function UserBin() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.UserBin.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>UserHome</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function UserHome() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.UserHome.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>UserLibrary</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function UserLibrary() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.UserLibrary.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>UserSBin</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function UserSBin() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.UserSBin.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>Var</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function Var() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.Var.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>VarLog</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function VarLog() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.VarLog.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>Windows</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function Windows() As Xojo.IO.FolderItem</SourceLine>
+   <SourceLine>Return New Xojo.IO.FolderItem(SpecialFolder.Windows.NativePath.ToText)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Xojo.IO.FolderItem</ItemResult>
+ </Method>
+ <Note>
+  <ItemName>About</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <NoteLine>About</NoteLine>
+   <NoteLine>This is a replacement for the SpecialFolder module in that it returns Xojo.IO.FolderItems instead of</NoteLine>
+   <NoteLine>classic framework FolderItems.</NoteLine>
+   <NoteLine></NoteLine>
+  </ItemSource>
+  <ItemFlags>0</ItemFlags>
+ </Note>
+ <ViewBehavior>
+  <ViewProperty>
+   <ObjName>Index</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <PropertyValue>-2147483648</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Left</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Name</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Super</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Top</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+ </ViewBehavior>
+ <Constant>
+  <ItemName>VERSION</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemType>6</ItemType>
+  <ItemDef>1.0.0</ItemDef>
+  <ItemFlags>0</ItemFlags>
+ </Constant>
+</block>
+</RBProject>
